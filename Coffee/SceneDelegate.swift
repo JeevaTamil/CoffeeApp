@@ -20,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
+        //let contentView = OrdersView(orders: [OrderVM(order: Order(name: "Jeeva", coffeeName: "Cappuccino", total: 30, size: "Regular"))])
         let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.

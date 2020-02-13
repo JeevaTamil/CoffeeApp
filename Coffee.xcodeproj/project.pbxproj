@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A82C280C23F5164D00CCDD7C /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82C280B23F5164D00CCDD7C /* TotalView.swift */; };
+		A84A4C1123EFAC6200AEB615 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A4C1023EFAC6200AEB615 /* CreateOrderResponse.swift */; };
+		A84A4C1323F034CC00AEB615 /* CofffeeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A4C1223F034CC00AEB615 /* CofffeeVM.swift */; };
+		A84A4C1523F0372B00AEB615 /* AddCoffeeOrderVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A4C1423F0372B00AEB615 /* AddCoffeeOrderVIewModel.swift */; };
+		A84A4C1723F03DF700AEB615 /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A4C1623F03DF700AEB615 /* AddCoffeeOrderView.swift */; };
 		A8BE11CB23EEE1FB00FC448F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE11CA23EEE1FB00FC448F /* AppDelegate.swift */; };
 		A8BE11CD23EEE1FB00FC448F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE11CC23EEE1FB00FC448F /* SceneDelegate.swift */; };
 		A8BE11CF23EEE1FB00FC448F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE11CE23EEE1FB00FC448F /* ContentView.swift */; };
 		A8BE11D123EEE1FC00FC448F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BE11D023EEE1FC00FC448F /* Assets.xcassets */; };
 		A8BE11D423EEE1FC00FC448F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BE11D323EEE1FC00FC448F /* Preview Assets.xcassets */; };
 		A8BE11D723EEE1FC00FC448F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE11D523EEE1FC00FC448F /* LaunchScreen.storyboard */; };
+		A8BE11E023EEE26300FC448F /* CofeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE11DF23EEE26300FC448F /* CofeeModel.swift */; };
+		A8BE11E223EEE3E700FC448F /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE11E123EEE3E700FC448F /* OrderModel.swift */; };
+		A8BE11E523EEE4B900FC448F /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE11E423EEE4B900FC448F /* Webservice.swift */; };
+		A8BE11E923EEE7BC00FC448F /* OrderListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE11E823EEE7BC00FC448F /* OrderListVM.swift */; };
+		A8BE11EC23EEEA5A00FC448F /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE11EB23EEEA5A00FC448F /* OrdersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A8BE11C723EEE1FB00FC448F /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82C280B23F5164D00CCDD7C /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
+		A84A4C1023EFAC6200AEB615 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		A84A4C1223F034CC00AEB615 /* CofffeeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofffeeVM.swift; sourceTree = "<group>"; };
+		A84A4C1423F0372B00AEB615 /* AddCoffeeOrderVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderVIewModel.swift; sourceTree = "<group>"; };
+		A84A4C1623F03DF700AEB615 /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
+		A8BE11C723EEE1FB00FC448F /* CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BE11CA23EEE1FB00FC448F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BE11CC23EEE1FB00FC448F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8BE11CE23EEE1FB00FC448F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +39,11 @@
 		A8BE11D323EEE1FC00FC448F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8BE11D623EEE1FC00FC448F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8BE11D823EEE1FC00FC448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BE11DF23EEE26300FC448F /* CofeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofeeModel.swift; sourceTree = "<group>"; };
+		A8BE11E123EEE3E700FC448F /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		A8BE11E423EEE4B900FC448F /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		A8BE11E823EEE7BC00FC448F /* OrderListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListVM.swift; sourceTree = "<group>"; };
+		A8BE11EB23EEEA5A00FC448F /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +68,7 @@
 		A8BE11C823EEE1FB00FC448F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8BE11C723EEE1FB00FC448F /* Coffee.app */,
+				A8BE11C723EEE1FB00FC448F /* CoffeeApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +76,12 @@
 		A8BE11C923EEE1FB00FC448F /* Coffee */ = {
 			isa = PBXGroup;
 			children = (
+				A8BE11EA23EEEA3800FC448F /* Views */,
+				A8BE11E723EEE7AB00FC448F /* ViewModels */,
+				A8BE11E323EEE48D00FC448F /* Services */,
+				A8BE11DE23EEE21700FC448F /* Model */,
 				A8BE11CA23EEE1FB00FC448F /* AppDelegate.swift */,
 				A8BE11CC23EEE1FB00FC448F /* SceneDelegate.swift */,
-				A8BE11CE23EEE1FB00FC448F /* ContentView.swift */,
 				A8BE11D023EEE1FC00FC448F /* Assets.xcassets */,
 				A8BE11D523EEE1FC00FC448F /* LaunchScreen.storyboard */,
 				A8BE11D823EEE1FC00FC448F /* Info.plist */,
@@ -73,6 +96,45 @@
 				A8BE11D323EEE1FC00FC448F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8BE11DE23EEE21700FC448F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE11DF23EEE26300FC448F /* CofeeModel.swift */,
+				A8BE11E123EEE3E700FC448F /* OrderModel.swift */,
+				A84A4C1023EFAC6200AEB615 /* CreateOrderResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8BE11E323EEE48D00FC448F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE11E423EEE4B900FC448F /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A8BE11E723EEE7AB00FC448F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE11E823EEE7BC00FC448F /* OrderListVM.swift */,
+				A84A4C1223F034CC00AEB615 /* CofffeeVM.swift */,
+				A84A4C1423F0372B00AEB615 /* AddCoffeeOrderVIewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A8BE11EA23EEEA3800FC448F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE11CE23EEE1FB00FC448F /* ContentView.swift */,
+				A8BE11EB23EEEA5A00FC448F /* OrdersView.swift */,
+				A84A4C1623F03DF700AEB615 /* AddCoffeeOrderView.swift */,
+				A82C280B23F5164D00CCDD7C /* TotalView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +154,7 @@
 			);
 			name = Coffee;
 			productName = Coffee;
-			productReference = A8BE11C723EEE1FB00FC448F /* Coffee.app */;
+			productReference = A8BE11C723EEE1FB00FC448F /* CoffeeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,8 +209,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8BE11CB23EEE1FB00FC448F /* AppDelegate.swift in Sources */,
+				A8BE11E923EEE7BC00FC448F /* OrderListVM.swift in Sources */,
+				A84A4C1123EFAC6200AEB615 /* CreateOrderResponse.swift in Sources */,
+				A84A4C1723F03DF700AEB615 /* AddCoffeeOrderView.swift in Sources */,
 				A8BE11CD23EEE1FB00FC448F /* SceneDelegate.swift in Sources */,
+				A8BE11E223EEE3E700FC448F /* OrderModel.swift in Sources */,
+				A8BE11E023EEE26300FC448F /* CofeeModel.swift in Sources */,
+				A8BE11EC23EEEA5A00FC448F /* OrdersView.swift in Sources */,
+				A8BE11E523EEE4B900FC448F /* Webservice.swift in Sources */,
+				A82C280C23F5164D00CCDD7C /* TotalView.swift in Sources */,
+				A84A4C1523F0372B00AEB615 /* AddCoffeeOrderVIewModel.swift in Sources */,
 				A8BE11CF23EEE1FB00FC448F /* ContentView.swift in Sources */,
+				A84A4C1323F034CC00AEB615 /* CofffeeVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +365,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeeva.Coffee;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeva.CoffeeApp;
+				PRODUCT_NAME = CoffeeApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,8 +385,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeeva.Coffee;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeeva.CoffeeApp;
+				PRODUCT_NAME = CoffeeApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
